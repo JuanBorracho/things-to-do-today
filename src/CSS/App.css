@@ -1,0 +1,11 @@
+.App {
+  padding: 2rem;
+  width: calc(100vw - 6rem);
+  height: calc(100vh - 6rem);
+  background-color: #e7f7fc;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}

@@ -4,6 +4,10 @@
 
 Lorem Ipsum!
 
+## Planning My App
+
+I used Figma to plan the components, state and design of my app. You can view the figma file by [clicking here](https://www.figma.com/file/F1nXZLL4mvesFytpwsRuHX/Things-To-Do-Today?node-id=0%3A1)
+
 ## Run this App locally
 
 In the project directory, you can run:

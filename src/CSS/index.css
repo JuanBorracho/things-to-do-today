@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; /* this makes 1 rem = 10px because 16px is the default font size from the browser and 10px/16px = 0.625 = 62.5% */
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Lato', sans-serif;
+  text-rendering: optimizeSpeed;
+  box-sizing: border-box;
+  background-color: #62c3de;
+}
+
+h1 {
+  font-family: 'Luckiest Guy', cursive;
+  color: #e8758c;
+  font-size: 4rem;
+}
+
+h2 {
+  font-family: 'Kalam', cursive;
+  font-weight: 300;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
