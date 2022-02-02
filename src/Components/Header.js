@@ -1,8 +1,8 @@
 const Header = () => {
   return (
-    <header>
-      <h1>Things to do today</h1>
-      <p>Add your tasks for the day to the list.</p>
+    <header className="header">
+      <h1 className="header__title">Things to do today</h1>
+      <p className="header__text">Add your tasks for the day to the list.</p>
     </header>
   );
 };
