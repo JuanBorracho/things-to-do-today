@@ -1,0 +1,15 @@
+.AddListItem__input {
+  border-radius: 0.5rem 0 0 0.5rem;
+  border: 0.1rem #000 solid;
+  border-right: 0;
+  padding: 1.5rem;
+  width: 40rem;
+}
+.AddListItem__button {
+  border-radius: 0 0.5rem 0.5rem 0;
+  border: 0.1rem #000 solid;
+  border-left: 0;
+  padding: 1.5rem;
+  width: 9.5rem;
+  background-color: #a6d9a6;
+}

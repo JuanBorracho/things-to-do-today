@@ -52,3 +52,14 @@ dl,
 dd {
   margin: 0;
 }
+
+.inner-container {
+  width: 50rem;
+  text-align: center;
+  position: relative;
+  height: 100vh;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
