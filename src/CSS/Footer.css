@@ -1,8 +1,7 @@
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: calc(100% - 4rem);
-  padding: 3rem 0;
+  margin-top: auto;
+  width: 100%;
+  padding-top: 3rem;
   border-top: 0.2rem solid #62c3de;
   text-align: center;
 }

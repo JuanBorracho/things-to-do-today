@@ -1,8 +1,8 @@
 .header {
-  padding: 1rem 3rem;
+  padding-top: 1rem;
   text-align: center;
 }
 
 .header__title {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }

@@ -4,8 +4,7 @@ const AddListItem = () => {
   };
 
   return (
-    <form className="AddListItem__Form" onSubmit={(e) => handleSubmit(e)}>
-      <label className="AddListItem__Label" htmlFor="add"></label>
+    <form className="AddListItem__form" onSubmit={(e) => handleSubmit(e)}>
       <input
         className="AddListItem__input"
         type="text"
