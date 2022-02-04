@@ -9,6 +9,19 @@ function App() {
   const [initialMessage, setInitialMessage] = useState('Your list is empty');
   const [showCongrats, setShowCongrats] = useState(false);
 
+  const removeFromList = (id) => {
+    const newList = list.filter((item) => {
+      return item.id !== id;
+    });
+
+    if (list.length > 1) {
+      setList(newList);
+    } else {
+      setList(newList);
+      setShowCongrats(true);
+    }
+  };
+
   return (
     <div className="App">
       <div className="inner-container">
@@ -22,7 +35,9 @@ function App() {
         <ListContent
           initialMessage={initialMessage}
           list={list}
+          setList={setList}
           showCongrats={showCongrats}
+          removeFromList={removeFromList}
         />
         <Footer list={list} />
       </div>
