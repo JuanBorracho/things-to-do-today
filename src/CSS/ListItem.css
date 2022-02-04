@@ -1,0 +1,26 @@
+.ListItem {
+  background-color: #ffeba5;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.ListItem__text {
+  font-size: 2.2rem;
+  font-weight: 300;
+}
+
+.ListItem__trash {
+  width: 2.9rem;
+  height: 3.3rem;
+  color: #ffb37e;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.ListItem__trash:hover {
+  color: #ee5d5d;
+}
