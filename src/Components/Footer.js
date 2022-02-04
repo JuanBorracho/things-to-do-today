@@ -1,4 +1,4 @@
-const Footer = () => {
+const Footer = ({ list }) => {
   return (
     <footer className="footer">
       <p>This is the footer</p>
