@@ -5,6 +5,7 @@ const AddListItem = ({ list, setList, setInitialMessage, setShowCongrats }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setShowCongrats(false);
     addToList();
     setNewItem('');
     setInitialMessage('');
