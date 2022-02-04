@@ -5,6 +5,7 @@ import './CSS/App.css';
 import './CSS/Header.css';
 import './CSS/Footer.css';
 import './CSS/AddListItem.css';
+import './CSS/Congrats.css';
 import App from './App';
 
 ReactDOM.render(

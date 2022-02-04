@@ -1,0 +1,15 @@
+.congrats {
+  text-align: center;
+}
+
+.congrats__title {
+  color: #000;
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  font-size: 3.6rem;
+  margin-top: 2rem;
+}
+
+.congrats__message {
+  margin-top: 1rem;
+}

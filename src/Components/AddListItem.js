@@ -1,11 +1,13 @@
 import { useState } from 'react';
 
-const AddListItem = ({ list, setList }) => {
+const AddListItem = ({ list, setList, setInitialMessage, setShowCongrats }) => {
   const [newItem, setNewItem] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
     addToList();
+    setNewItem('');
+    setInitialMessage('');
   };
 
   const addToList = () => {
