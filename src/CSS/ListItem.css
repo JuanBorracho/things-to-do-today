@@ -7,6 +7,7 @@
   padding: 1.5rem;
   width: 100%;
   margin: 2rem 0 2rem 0;
+  cursor: pointer;
 }
 
 .ListItem__text {
@@ -18,7 +19,6 @@
   width: 2.9rem;
   height: 3.3rem;
   color: #ffb37e;
-  cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
 

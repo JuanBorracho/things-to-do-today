@@ -22,6 +22,14 @@ function App() {
     }
   };
 
+  const toggleStrike = (id) => {
+    const newList = list.map((item) =>
+      item.id === id ? { ...item, strikethrough: !item.strikethrough } : item
+    );
+
+    setList(newList);
+  };
+
   return (
     <div className="App">
       <div className="inner-container">
@@ -38,6 +46,7 @@ function App() {
           setList={setList}
           showCongrats={showCongrats}
           removeFromList={removeFromList}
+          toggleStrike={toggleStrike}
         />
         <Footer list={list} />
       </div>

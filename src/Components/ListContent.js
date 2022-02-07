@@ -6,11 +6,16 @@ const ListContent = ({
   initialMessage,
   showCongrats,
   removeFromList,
+  toggleStrike,
 }) => {
   return (
     <main className="ListContent">
       {showCongrats ? <Congrats /> : <p>{initialMessage}</p>}
-      <List list={list} removeFromList={removeFromList} />
+      <List
+        list={list}
+        removeFromList={removeFromList}
+        toggleStrike={toggleStrike}
+      />
     </main>
   );
 };
