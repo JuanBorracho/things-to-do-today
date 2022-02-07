@@ -4,7 +4,7 @@
 
 .congrats__title {
   color: #fdd920;
-  text-shadow: 0.1rem 0.4rem 0.2rem rgba(0, 0, 0, 0.8);
+  -webkit-text-stroke: 0.1rem black;
   font-weight: 700;
   font-size: 3.6rem;
   margin-top: 2rem;

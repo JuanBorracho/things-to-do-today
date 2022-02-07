@@ -24,7 +24,6 @@ const AddListItem = ({ list, setList, setInitialMessage, setShowCongrats }) => {
         className="AddListItem__input"
         type="text"
         name="add"
-        autoFocus
         required
         value={newItem}
         placeholder="Add to your list here..."

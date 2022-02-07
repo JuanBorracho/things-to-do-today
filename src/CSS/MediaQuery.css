@@ -20,4 +20,8 @@
   .congrats__title {
     font-size: 3.2rem;
   }
+
+  .ListItem__text {
+    font-size: 1.8rem;
+  }
 }

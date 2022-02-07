@@ -10,9 +10,17 @@
   cursor: pointer;
 }
 
+.ListItem__left {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
 .ListItem__text {
   font-size: 2.2rem;
   font-weight: 300;
+  margin: 0.3rem 0.3rem 0 0;
+  text-align: left;
 }
 
 .ListItem__trash {
