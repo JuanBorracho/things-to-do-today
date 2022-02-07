@@ -1,0 +1,23 @@
+@media (max-width: 500px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 400px) {
+  .App {
+    border: 1.4rem solid #62c3de;
+  }
+
+  .header__title {
+    font-size: 3.2rem;
+  }
+
+  .header__text {
+    font-size: 1.6rem;
+  }
+
+  .congrats__title {
+    font-size: 3.2rem;
+  }
+}

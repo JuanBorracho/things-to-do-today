@@ -8,6 +8,7 @@ import './CSS/AddListItem.css';
 import './CSS/Congrats.css';
 import './CSS/ListItem.css';
 import './CSS/ListContent.css';
+import './CSS/MediaQuery.css';
 import App from './App';
 
 ReactDOM.render(
