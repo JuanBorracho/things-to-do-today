@@ -22,6 +22,17 @@
   transition: all 0.2s ease-in-out;
 }
 
+.ListItem__edit {
+  width: 4rem;
+  height: 3.5rem;
+  color: #a6d9a6;
+  transition: all 0.2s ease-in-out;
+}
+
 .ListItem__trash:hover {
   color: #ee5d5d;
+}
+
+.ListItem__edit:hover {
+  color: #ffb37e;
 }

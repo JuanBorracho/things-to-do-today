@@ -1,13 +1,18 @@
-import { FaTrash } from 'react-icons/fa';
+import { FaTrash, FaEdit } from 'react-icons/fa';
 
-const ListItem = ({ item, removeFromList, toggleStrike }) => {
+const ListItem = ({ item, removeFromList, toggleStrike, editItem }) => {
   return (
     <li className="ListItem" onDoubleClick={() => toggleStrike(item.id)}>
+      <FaEdit
+        className="ListItem__edit"
+        role="button"
+        onClick={() => editItem(item, item.text)}
+      />
       <h2
         className="ListItem__text"
         style={
           item.strikethrough
-            ? { 'text-decoration': 'line-through', color: '#A6D9A6' }
+            ? { textDecoration: 'line-through', color: '#E8758C' }
             : null
         }
       >

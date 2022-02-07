@@ -8,6 +8,7 @@ function App() {
   const [list, setList] = useState([]);
   const [initialMessage, setInitialMessage] = useState('Your list is empty');
   const [showCongrats, setShowCongrats] = useState(false);
+  const [edit, setEdit] = useState(false);
 
   const removeFromList = (id) => {
     const newList = list.filter((item) => {
@@ -34,12 +35,14 @@ function App() {
     <div className="App">
       <div className="inner-container">
         <Header />
-        <AddListItem
-          list={list}
-          setList={setList}
-          setInitialMessage={setInitialMessage}
-          setShowCongrats={setShowCongrats}
-        />
+        {!edit ? (
+          <AddListItem
+            list={list}
+            setList={setList}
+            setInitialMessage={setInitialMessage}
+            setShowCongrats={setShowCongrats}
+          />
+        ) : null}
         <ListContent
           initialMessage={initialMessage}
           list={list}
@@ -47,6 +50,8 @@ function App() {
           showCongrats={showCongrats}
           removeFromList={removeFromList}
           toggleStrike={toggleStrike}
+          edit={edit}
+          setEdit={setEdit}
         />
         <Footer list={list} />
       </div>
