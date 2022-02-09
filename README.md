@@ -16,6 +16,20 @@ The hooks I used in this project were useState, useEffect and useRef. There was 
 
 One idea I had to extend this app is to add the ability to drag and drop the list items so the user can re-order them by order of importance. I found a library called react-beautiful-dnd that can help with this and when I have time I will look into implementing this.
 
+## User Stories
+
+- As a user, I can add an item to the list
+
+- As a user, I can remove an item from my list
+
+- As a user, I can double tap to cross off my list item, but still keep it on the screen
+
+- As a user, the app will remind me how many items I have left on my list in the footer
+
+- As a user, I will see a congratulatory animation once I have deleted all my list items
+
+- As a user, I will be able to edit a list item
+
 ## Planning My App
 
 I used Figma to plan the components, state and design of my app. You can view the figma file by [clicking here](https://www.figma.com/file/F1nXZLL4mvesFytpwsRuHX/Things-To-Do-Today?node-id=0%3A1).
